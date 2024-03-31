@@ -1,0 +1,58 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I think I missed what you said, would you like to go again?"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can talk to you and present with some options that can help you enhance your mood", "Offering to talk to you, Conversation, Need to talk"],
+         "context": [""]
+        },
+        {"tag": "sadness",
+         "patterns": [],
+         "responses": ["I'm sorry to hear that. Would you like to talk about that", "I'm always here to listen. Feel free to talk to me anytime you need to."],
+         "context": ["Here is a lofi music link that I really enjoy, it might help: https://youtu.be/7NsFstmsATA , https://youtu.be/o5Gv4_FdcYs", "If you like music and stuffed cute animals excite you, I think you’d love this: https://youtu.be/dcX0KoI5Cws"]
+        },
+        {"tag": "anger",
+         "patterns": [],
+         "responses": ["Do you want to talk more about it?", "Do you want to continue talking to relieve yourself from any tension and pressures"],
+         "context": ["Here are some calming music links on youtube that may help: https://www.youtube.com/live/Y9d-VyMXieI?feature=share", "Is something bothering you? Try this video it might elevate your mood: https://youtu.be/g0rhN8U14dk "]
+        },
+        {"tag": "fear",
+         "patterns": [],
+         "responses": ["You can talk to me, I am always happy to listen to you", "Don't worry, it gets better"],
+         "context": ["This is a ted talk, I hope this helps: https://youtu.be/xrWvPo-KaVs ", "This might be helpful: https://youtu.be/uOxXJTiUweY"]
+        },
+        {"tag": "surprise",
+         "patterns": [],
+         "responses": ["That is amazing","I am happy for you"],
+         "context": [""]
+        },
+        {"tag": "joy",
+         "patterns": [],
+         "responses": ["I am glad you feel this way","That's awesome", "I love that for you"],
+         "context": [""]
+        },
+        {"tag": "love",
+         "patterns": [],
+         "responses": ["Spreading good vibes","Keep rocking","I love that for you"],
+         "context": [""]
+        }
+   ]
+}
